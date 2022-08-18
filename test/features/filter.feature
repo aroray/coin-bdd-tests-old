@@ -20,5 +20,4 @@ Feature: Filtering and Comparison related test cases
     And I select minimum price to 100 and maximum price to 10000 in More Filters
     And I close More Filters window
     Then I browse crypto table and capture page contents
-    And I compare current prices names with previously noted values
     And I do not see any of noted currency name in the new list
