@@ -6,7 +6,7 @@ Feature: Filtering and Comparison related test cases
 #----------------------------------------------------------------------------------------------------------------------
 # TEST CASE: As a Customer I can filter cryptocurrency prices compare content
 #----------------------------------------------------------------------------------------------------------------------
-  Scenario: Filter Cryptocurrency prices table
+  Scenario: Filter Cryptocurrency prices table and compare data before and after filtering
     Given I goto LANDING page
     And I remove any popup in homepage
     Then I can see cryptocurrency price table
