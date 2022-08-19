@@ -3,8 +3,6 @@ import * as assert from "assert";
 
 const Currency = require("../helper/Currency")
 
-//worldState = require("../helper/WorldState")
-
 let currencyNames1 = [],
     currencyNames2 = []
 
