@@ -3,9 +3,9 @@ Feature: Filtering and Comparison related test cases
   Background:
     Given I reset the webcontainer
 
-#----------------------------------------------------------------------------------------------------------------------
-# TEST CASE: As a Customer I can filter cryptocurrency prices compare content
-#----------------------------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------
+# TEST CASE: As a Customer I can filter cryptocurrency prices
+#----------------------------------------------------------------------------------------------
   Scenario: Filter Cryptocurrency prices table and compare data before and after filtering
     Given I goto LANDING page
     And I remove any popup in homepage
