@@ -57,7 +57,7 @@ When(/^I close More Filters window$/, async function () {
     await browser.waitUntil(async () => (!await pages["cryptoTable"].moreFilters.isDisplayed()))
 });
 
-Then(/^I do not see any of noted currency name in the new list$/, async function () {
+Then(/^I do see common currency name with noted ones in the new list$/, async function () {
     await pages["cryptoTable"].verifyCommonCurrencyName()
 });
 
