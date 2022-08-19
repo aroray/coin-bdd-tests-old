@@ -29,7 +29,7 @@ Some files are not committed to repo and only used to store temp file when runni
 folder will save screenshots in event test fails
 Add below files/folder to root of project -
 - errorShots
-- 
+
 #### Running the framework
 Once all of the above steps have been performed, issue the below command to run the framework:
 
