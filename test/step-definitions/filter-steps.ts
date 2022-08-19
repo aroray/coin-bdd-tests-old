@@ -19,8 +19,6 @@ When(/^I filter table to (\w+) rows$/, async function (rowsNumber: number) {
 });
 
 When(/^I browse crypto table and capture page contents$/, async function () {
-    //await browser.pause(1000)
-    //await pages["cryptoTable"].numberOfPagesAvailable()
     await pages["cryptoTable"].getColValuesForTable(20)
 });
 
